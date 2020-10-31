@@ -88,7 +88,7 @@ const startCommand string = "/start"
 
 var lenStartCommand int = len(startCommand)
 
-const botTag string = "@RapGeniusBot"
+const botTag string = "@HemdaBot"
 
 var lenBotTag int = len(botTag)
 
