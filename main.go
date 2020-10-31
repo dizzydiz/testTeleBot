@@ -185,7 +185,7 @@ func HandleTelegramWebHook(w http.ResponseWriter, r *http.Request) {
 	// 	return
 	// }
 
-	lyric := "From Bot"
+	lyric := update.Message.Text
 
 	// Send the punchline back to Telegram
 	var telegramResponseBody, errTelegram = sendTextToTelegramChat(update.Message.Chat.Id, lyric)
